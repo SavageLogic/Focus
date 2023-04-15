@@ -1,0 +1,14 @@
+{
+    "manifest_version": 1,
+    "version":"1.0",
+    "name":"Focus",
+    "description": "Removes recommended videos to prevent distraction",
+    "content_scripts":[
+        {
+            "matches":["*://youtube.com/*"],
+            "js":["main.js"],
+            "css":["main.css"],
+            "run_at": "document_start"
+        }
+    ]
+}
