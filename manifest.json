@@ -5,7 +5,7 @@
     "description": "Removes recommended videos to prevent distraction",
     "content_scripts":[
         {
-            "matches":["*://youtube.com/*"],
+            "matches":["*://*.youtube.com/*"],
             "js":["main.js"],
             "css":["main.css"],
             "run_at": "document_start"

@@ -1,3 +1,23 @@
 #secondary {
     display: none;
 }
+
+.html5-endscreen {
+    display: none;
+} 
+
+.ytp-player-content {
+    display: none;
+} 
+
+.videowall-endscreen {
+    display: none;
+} 
+
+.ytp-show-tiles {
+    display: none;
+} 
+
+.ytp-endscreen-paginate {
+    display: none;
+} 
